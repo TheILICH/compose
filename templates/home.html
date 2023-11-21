@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    Hello, home!<br>
+
+    {% for i in items %}
+        id = {{ i.id }} name = {{ i.name }} and price = {{ i.price }}<br>
+    {% endfor %}
+</body>
+</html>
